@@ -28,6 +28,8 @@ module.exports = function(app) {
       text: req.body.text,
       complete: req.body.complete
     })
+
+    
   });
 
   // DELETE route for deleting todos. You can access the todo's id in req.params.id
