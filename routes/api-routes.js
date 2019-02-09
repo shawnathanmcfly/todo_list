@@ -8,7 +8,6 @@
 // grab the orm from the config
 // (remember: connection.js -> orm.js -> route file)
 
-
 // Routes
 // =============================================================
 module.exports = function(app) {

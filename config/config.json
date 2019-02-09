@@ -14,9 +14,9 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "InSeCT!@#4",
-    "database": "todo",
+    "username": "	bf8467a4a991d8",
+    "password": "	a485bc43",
+    "database": "cleardb-shallow-95261",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
