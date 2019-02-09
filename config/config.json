@@ -2,8 +2,8 @@
   "development": {
     "username": "root",
     "password": "InSeCt!@#4",
-    "database": "todo",
-    "host": "127.0.0.1",
+    "database": "todolist",
+    "host": "localhost",
     "port": 3306,
     "dialect": "mysql"
   },
