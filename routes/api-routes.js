@@ -15,12 +15,19 @@ module.exports = function(app) {
 
   // GET route for getting all of the todos
   app.get("/api/todos", function(req, res) {
+    db.Todo.findAll({}).then(function(results){
+      res.json(results);
+    });
 
   });
 
   // POST route for saving a new todo. You can create a todo using the data on req.body
   app.post("/api/todos", function(req, res) {
-
+    console.log(req.body)
+    db.Todo.create({
+      text: req.body.text,
+      complete: req.body.complete
+    })
   });
 
   // DELETE route for deleting todos. You can access the todo's id in req.params.id
