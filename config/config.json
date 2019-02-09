@@ -2,7 +2,7 @@
   "development": {
     "username": "password",
     "password": "password",
-    "database": "C-HEROKU-385C881B2CB3",
+    "database": "todolist",
     "host": "us-mm-dca-386125d42cb3.g5.cleardb.net",
     "dialect": "mysql"
   },
