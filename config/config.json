@@ -1,7 +1,7 @@
 {
   "development": {
-    "username": "	b4529b00bd6c71",
-    "password": "	a8c5d55d",
+    "username": "b4529b00bd6c71",
+    "password": "a8c5d55d",
     "database": "heroku_2f12e456b80abac",
     "host": "us-cdbr-iron-east-03.cleardb.net",
     "dialect": "mysql"
