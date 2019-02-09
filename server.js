@@ -5,6 +5,7 @@
 // *** Dependencies
 // =============================================================
 var express = require("express");
+var db = require("./models")
 
 // Sets up the Express App
 // =============================================================
@@ -12,6 +13,7 @@ var app = express();
 var PORT = process.env.PORT || 8080;
 
 // Sets up the Express app to handle data parsing
+db.sequelize.sync()
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
