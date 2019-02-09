@@ -1,10 +1,11 @@
 {
   "development": {
-    "username": "b9c2162ffb0834",
-    "password": "07c63c42",
-    "database": "heroku_3b65cb7950bcf69",
-    "host": "us-mm-dca-386125d42cb3.g5.cleardb.net",
-    "dialect": "mysql"
+    "username": "wklslqyybsjafk",
+    "password": "63949f0d337ee51e36a2666a37b495b2711eb5e15217c717271f5b52f5cfedd4",
+    "database": "dc61vnme49ek73",
+    "host": "ec2-54-243-228-140.compute-1.amazonaws.com",
+    "port": 5432,
+    "dialect": "postgres"
   },
   "test": {
     "username": "root",
